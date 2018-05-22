@@ -38,6 +38,28 @@ int main() {
 	 * ちなみに, 自動車のカーナビの, 距離を算出する計算は, これの応用.
 	 * 	 */
 
+
+	/*
+	int x=0;
+	int y=0;
+	cin>>x;
+	y=y+x*x;
+	cout<<y<<endl;
+	cin>>x;
+	y=x*x+y;
+	cout<<y<<endl;
+	cin>>x;
+	y=x*x+y;
+	cout<<y<<endl;
+	cin>>x;
+	y=x*x+y;
+    cout<<y<<endl;
+	cin>>x;
+	y=x*x+y;
+	cout<<y<<endl;
+	cout<<"おわり"<<endl;
+*/
+
 	/*
 	int y = 1;
 	int x = 0;
@@ -61,6 +83,8 @@ int main() {
 	y=y*x;
 	cout<<y<<endl;
 */
+
+
 
 
 
