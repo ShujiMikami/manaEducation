@@ -25,64 +25,20 @@ void seikai()
 
 
 int main() {
+	/*
+	 * 以下のプログラムは, 3を2で割る計算結果を出力するプログラムである
+	 */
+	int x = 3;
+	int y = 2;
+	int z = 0;
+
+	z = x / y;
+	cout << z << endl; //答えは1が出力される.
+
 	/*問題
-	 * ある整数yを0にする
-	 * ユーザーに数字を入力させて、その値を2乗し, yに足し算して出力するのを5回繰り返すプログラムを実行しなさい
-	 * 例
-	 * 1を入力後 1を出力
-	 * 2を入力後 5を出力
-	 * 3を入力後 14を出力
-	 * 4を入力後 30を出力
-	 * 5を入力後 55を出力
-	 * おわり
-	 * ちなみに, 自動車のカーナビの, 距離を算出する計算は, これの応用.
-	 * 	 */
+	 * 以上のプログラムにおける, "int"をすべて, "double"に書き換えて, 答えがどうなるか確認しなさい
+	 */
 
-
-	/*
-	int x=0;
-	int y=0;
-	cin>>x;
-	y=y+x*x;
-	cout<<y<<endl;
-	cin>>x;
-	y=x*x+y;
-	cout<<y<<endl;
-	cin>>x;
-	y=x*x+y;
-	cout<<y<<endl;
-	cin>>x;
-	y=x*x+y;
-    cout<<y<<endl;
-	cin>>x;
-	y=x*x+y;
-	cout<<y<<endl;
-	cout<<"おわり"<<endl;
-*/
-
-	/*
-	int y = 1;
-	int x = 0;
-	cin>>x;
-	y=y*x;
-	cout<<y<<endl;
-
-	cin>>x;
-	y=y*x;
-	cout<<y<<endl;
-
-	cin>>x;
-	y=y*x;
-	cout<<y<<endl;
-
-	cin>>x;
-	y=y*x;
-	cout<<y<<endl;
-
-	cin>>x;
-	y=y*x;
-	cout<<y<<endl;
-*/
 
 
 
