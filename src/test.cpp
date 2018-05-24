@@ -28,9 +28,9 @@ int main() {
 	/*
 	 * 以下のプログラムは, 3を2で割る計算結果を出力するプログラムである
 	 */
-	int x = 3;
-	int y = 2;
-	int z = 0;
+	double x = 1;
+	double y = 3;
+	double z = 0;
 
 	z = x / y;
 	cout << z << endl; //答えは1が出力される.
@@ -38,6 +38,14 @@ int main() {
 	/*問題
 	 * 以上のプログラムにおける, "int"をすべて, "double"に書き換えて, 答えがどうなるか確認しなさい
 	 */
+
+	double hankei;
+	cin>>hankei;
+	double pai;
+	pai=3.14;
+	double menseki;
+	menseki=hankei*hankei*pai;
+	cout<<menseki<<endl;
 
 
 
