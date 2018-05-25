@@ -12,73 +12,35 @@ using namespace std;
 
 int main() {
 	/*–â‘è
-	 * ƒ†[ƒU[‚É, ¤•i‚ÌÅ”²‚«‰¿Ši‚ğ, 10ŒÂ“ü—Í‚µ‚Ä‚à‚ç‚¢,
-	 * ‚³‚ç‚É, Å—¦‚ğ“ü—Í‚µ‚Ä‚à‚ç‚¢,
-	 * ‘S•”‚Ì‡Œv‹àŠz‚ÌAÅ‚İ‰¿Ši‚ğ•\¦‚µ‚È‚³‚¢
-	 * Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚à‚ç‚¤‚Æ‚«‚Í, "Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"‚Æ•\¦‚µ‚È‚³‚¢
-	 * Å—¦‚ğ“ü—Í‚µ‚Ä‚à‚ç‚¤‚Æ‚«‚Í, "Å—¦‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"‚Æ•\¦‚µ‚È‚³‚¢
-	 * ‡Œv‹àŠz‚ğo—Í‚·‚é‚Æ‚«‚Í, "‡Œv‹àŠz‚Í"‚Æ•\¦‚µ‚È‚³‚¢
+	 *
+	 * ‚ ‚é¬”a‚ªÅ‰100‚Å‚ ‚é
+	 * ƒ†[ƒU[‚É¬”b, ¬”c‚ğ“ü—Í‚³‚¹, a‚Éb‚Æc‚ğ‚©‚¯‚é
+	 * ‚±‚ê‚ğ5‰ñŒJ‚è•Ô‚µ‚½‚ ‚Æ‚Ìa‚Ì’l‚ğo—Í‚·‚éƒvƒƒOƒ‰ƒ€‚ğì‚è‚È‚³‚¢
 	 */
-	double zeinukikakaku=0;
-    double goukeikingaku=0;
-	cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-    cin>>zeinukikakaku;
-    goukeikingaku=goukeikingaku+zeinukikakaku;
+	double a=100;
+	double b=0;
+	double c=0;
 
-    cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-    cin>>zeinukikakaku;
-    goukeikingaku=goukeikingaku+zeinukikakaku;
-
-    cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-    cin>>zeinukikakaku;
-    goukeikingaku=goukeikingaku+zeinukikakaku;
-
-    cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-    cin>>zeinukikakaku;
-    goukeikingaku=goukeikingaku+zeinukikakaku;
-
-    cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-    cin>>zeinukikakaku;
-    goukeikingaku=goukeikingaku+zeinukikakaku;
-
-    cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-    cin>>zeinukikakaku;
-    goukeikingaku=goukeikingaku+zeinukikakaku;
-
-    cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-    cin>>zeinukikakaku;
-    goukeikingaku=goukeikingaku+zeinukikakaku;
-
-    cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-                      cin>>zeinukikakaku;
-                      goukeikingaku=goukeikingaku+zeinukikakaku;
-
-                      cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-                         cin>>zeinukikakaku;
-                         goukeikingaku=goukeikingaku+zeinukikakaku;
-
-                         cout<<"Å”²‚«‰¿Ši‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-                            cin>>zeinukikakaku;
-                            goukeikingaku=goukeikingaku+zeinukikakaku;
-
-
-	double zeiritu=0;
-    cout<<"Å—¦‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"<<endl;
-    cin>>zeiritu;
-    goukeikingaku=goukeikingaku*zeiritu;
-    cout<<"‡Œv‹àŠz‚Í"<<goukeikingaku<<endl;
-
-
-
-
-
-
-
-
-
-
-
-
+	cin>>b;
+	cin>>c;
+	a=a*b*c;
+	cout<<a<<endl;
+	cin>>b;
+		cin>>c;
+		a=a*b*c;
+		cout<<a<<endl;
+		cin>>b;
+			cin>>c;
+			a=a*b*c;
+			cout<<a<<endl;
+			cin>>b;
+				cin>>c;
+				a=a*b*c;
+				cout<<a<<endl;
+				cin>>b;
+					cin>>c;
+					a=a*b*c;
+					cout<<a<<endl;
 
 
 	return 0;
