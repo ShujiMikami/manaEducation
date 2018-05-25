@@ -11,24 +11,64 @@ using namespace std;
 
 
 int main() {
-
-
 	/*問題
-	 * ユーザーに体重と, 身長を, 小数点で, 入力させ,
-	 * (体重)/(身長の2乗)を計算して出力するプログラムをつくりなさい.
-	 * 体重を入力させる際, "体重を入力してください"と文字を出力し,
-	 * 身長を入力させる際, "身長を入力してください"と文字を出力し,
-	 * 結果を出力する際, "BMI=XX"と出力させなさい.
+	 * ユーザーに, 商品の税抜き価格を, 10個入力してもらい,
+	 * さらに, 税率を入力してもらい,
+	 * 全部の合計金額の、税込み価格を表示しなさい
+	 * 税抜き価格を入力してもらうときは, "税抜き価格を入力してください"と表示しなさい
+	 * 税率を入力してもらうときは, "税率を入力してください"と表示しなさい
+	 * 合計金額を出力するときは, "合計金額は"と表示しなさい
 	 */
-	double taijyu=0;
-	cout<<"体重を入力してください"<<endl;
-	cin>>taijyu;
-	double sinntyo=0;
-	cout<<"身長を入力してください"<<endl;
-    cin>>sinntyo;
-    double BMI=0;
-	BMI=taijyu/(sinntyo*sinntyo);
-	cout<<"BMI="<<BMI<<endl;
+	double zeinukikakaku=0;
+    double goukeikingaku=0;
+	cout<<"税抜き価格を入力してください"<<endl;
+    cin>>zeinukikakaku;
+    goukeikingaku=goukeikingaku+zeinukikakaku;
+
+    cout<<"税抜き価格を入力してください"<<endl;
+    cin>>zeinukikakaku;
+    goukeikingaku=goukeikingaku+zeinukikakaku;
+
+    cout<<"税抜き価格を入力してください"<<endl;
+    cin>>zeinukikakaku;
+    goukeikingaku=goukeikingaku+zeinukikakaku;
+
+    cout<<"税抜き価格を入力してください"<<endl;
+    cin>>zeinukikakaku;
+    goukeikingaku=goukeikingaku+zeinukikakaku;
+
+    cout<<"税抜き価格を入力してください"<<endl;
+    cin>>zeinukikakaku;
+    goukeikingaku=goukeikingaku+zeinukikakaku;
+
+    cout<<"税抜き価格を入力してください"<<endl;
+    cin>>zeinukikakaku;
+    goukeikingaku=goukeikingaku+zeinukikakaku;
+
+    cout<<"税抜き価格を入力してください"<<endl;
+    cin>>zeinukikakaku;
+    goukeikingaku=goukeikingaku+zeinukikakaku;
+
+    cout<<"税抜き価格を入力してください"<<endl;
+                      cin>>zeinukikakaku;
+                      goukeikingaku=goukeikingaku+zeinukikakaku;
+
+                      cout<<"税抜き価格を入力してください"<<endl;
+                         cin>>zeinukikakaku;
+                         goukeikingaku=goukeikingaku+zeinukikakaku;
+
+                         cout<<"税抜き価格を入力してください"<<endl;
+                            cin>>zeinukikakaku;
+                            goukeikingaku=goukeikingaku+zeinukikakaku;
+
+
+	double zeiritu=0;
+    cout<<"税率を入力してください"<<endl;
+    cin>>zeiritu;
+    goukeikingaku=goukeikingaku*zeiritu;
+    cout<<"合計金額は"<<goukeikingaku<<endl;
+
+
 
 
 
