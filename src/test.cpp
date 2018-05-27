@@ -19,6 +19,42 @@ int main() {
 	 * これを5回繰り返したあと,　ユーザーに小数dを入力させる
 	 * 最後にa/dを出力するプログラムを作りなさい
 	 */
+	/*double a=100;
+	double b=0;
+	double c=0;
+	double d=0;
+	double kaitou=0;
+
+	cin>>b;
+	cin>>c;
+	a=a*b*c;
+	cout<<a<<endl;
+
+	cin>>b;
+		cin>>c;
+		a=a*b*c;
+		cout<<a<<endl;
+
+		cin>>b;
+			cin>>c;
+			a=a*b*c;
+			cout<<a<<endl;
+
+			cin>>b;
+				cin>>c;
+				a=a*b*c;
+				cout<<a<<endl;
+
+				cin>>b;
+					cin>>c;
+					a=a*b*c;
+					cout<<a<<endl;
+
+					cin>>d;
+					kaitou=a/d;
+					cout<<kaitou<<endl;
+					*/
+
 
 	/*問題2
 	 * ある小数xが最初10である
@@ -27,6 +63,54 @@ int main() {
 	 * x, yを出力する
 	 * これを5回繰り返した後, 最後に, x + yを出力するプログラムを作りなさい
 	 */
+    double x=10;
+    double y=20;
+    double z=0;
+    double w=0;
+    double kai;
+
+    cin>>z;
+    x=x*z;
+    cout<<x<<endl;
+
+    cin>>w;
+    y=y*w;
+    cout<<y<<endl;
+
+    cin>>z;
+        x=x*z;
+        cout<<x<<endl;
+
+        cin>>w;
+        y=y*w;
+        cout<<y<<endl;
+
+        cin>>z;
+            x=x*z;
+            cout<<x<<endl;
+
+            cin>>w;
+            y=y*w;
+            cout<<y<<endl;
+
+            cin>>z;
+                x=x*z;
+                cout<<x<<endl;
+
+                cin>>w;
+                y=y*w;
+                cout<<y<<endl;
+
+                cin>>z;
+                    x=x*z;
+                    cout<<x<<endl;
+
+                    cin>>w;
+                    y=y*w;
+                    cout<<y<<endl;
+
+    kai=x+y;
+    cout<<kai<<endl;
 
 
 	return 0;
