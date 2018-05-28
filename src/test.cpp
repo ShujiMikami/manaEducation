@@ -7,52 +7,24 @@
 //============================================================================
 
 #include <iostream>
+#include <unistd.h>
 using namespace std;
 
 
 int main() {
-	/*問題1
-	 *
-	 * ある小数が最初100である
-	 * ユーザーに小数を二つを入力させ, どんどんかけていく
-	 * かけた結果を出力する
-	 * これを5回繰り返したあと,　ユーザーに小数をもう一つを入力させる
-	 * そこまでの結果をさらに最後の小数で割り算を出力するプログラムを作りなさい
-	 */
-	double a=100;
-	double b=0;
-	double c=0;
-	double d=0;
+	/*問題
+	 * ある整数が最初1である
+	 * 整数をユーザーに入力させ、
+	 * その整数をかけた結果を出力する
+	 * これを10回繰り返しなさい
+	 *  */
 
-	cin>>b;
-	cin>>c;
-	a=a*b*c;
-	cout<<a<<endl;
-
-	cin>>b;
+	int b=1;
+	int c=0;
+	for(int a=0;a<10;a++){
 		cin>>c;
-		a=a*b*c;
-		cout<<a<<endl;
-
-		cin>>b;
-			cin>>c;
-			a=a*b*c;
-			cout<<a<<endl;
-
-			cin>>b;
-				cin>>c;
-				a=a*b*c;
-				cout<<a<<endl;
-
-				cin>>b;
-					cin>>c;
-					a=a*b*c;
-					cout<<a<<endl;
-
-					cin>>d;
-	          a=a/d;
-	          cout<<a<<endl;
-
-
+		b=b*c;
+		cout<<b<<endl;
+	}
 	return 0;
 }
